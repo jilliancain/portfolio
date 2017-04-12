@@ -1,0 +1,246 @@
+body {
+    background-image: url("./img/bg.png");}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-size: 8px;
+  font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+}
+
+
+h1 {
+  margin: 5px;
+    margin:auto;
+  padding: 10px;
+    width:auto;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+  font-family:'Amatic SC', cursive;
+  color: #222;
+  background: grey;
+    border: 2px solid black;
+}
+
+h2 {
+  margin:5px;
+    margin:auto;
+  padding: 10px;
+    font-size: 30px;
+    height:70px;
+    width:200px;
+    text-align: center;
+    background: #206E6E;
+    border: 2px solid black;
+    
+  font-family:'Amatic SC', cursive;
+  color: #222;
+}
+
+.title {
+  margin: 25px;
+    margin:auto;
+  padding: 10px;
+    font-size: 20px;
+    text-align: center;
+height:20px;
+    width:auto;
+  font-family:'Amatic SC', cursive;
+  color: #222;}
+    
+.headline {
+  margin: 25px;
+    margin:auto;
+  padding: 10px;
+    font-size: 20px;
+    text-align: center;
+height:20px;
+    width:auto;
+  font-family:'Amatic SC', cursive;
+  color: #222;}
+
+h3 {
+  margin:5px;
+    margin:auto;
+  padding: 10px;
+    font-size: 30px;
+    height:50px;
+    width:200px;
+    text-align: center;
+    border: 1px solid black;
+   font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+}
+}
+
+h4 {
+    font-size: 20px;
+height:10px;
+    width:auto
+  font-family:'Amatic SC', cursive;
+  color:black;
+text-align: left;
+  
+    
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+    font-size: 20px;
+    width:auto;
+  text-align: center;
+  font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+     list-style-type:none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+    width:auto;
+    font-size: 20px;
+  text-align: center;
+  font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+
+     list-style-type:circle;
+}
+
+
+/*floats*/
+.edu {floats: right;
+      margin: 5px;
+    margin:auto;
+  padding: 10px;
+    width:auto;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+  font-family:'Amatic SC', cursive;
+  color: #222;
+  background: grey;
+    border: 2px solid black;
+}
+
+.exp {floats: left;
+      margin: 5px;
+    margin:auto;
+  padding: 10px;
+    width:auto;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+  font-family:'Amatic SC', cursive;
+  color: #222;
+  background: grey;
+    border: 2px solid black;
+}
+  
+
+
+
+/*hover styles*/
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: darkcyan;
+}
+
+
+
+/*desktop*/
+ @media screen and (max-width:1024px) {
+  
+
+
+body {
+  background-image: url("./img/bg.png");
+  
+}
+     .tablet, mobile
+  {display: none;}
+   
+   .tablet 
+   {display: block;}
+   
+
+}
+
+
+
+
+
+
+/*tablet*/
+
+@media screen and (max-width:1024px) {
+  
+
+
+body {
+ background-image: url("./img/bg.png");
+  
+}
+  .desktop, mobile
+  {display: none;}
+  
+
+}
+
+
+
+
+/*mobile*/
+
+@media screen and (max-width:480px ) {
+  
+
+body {
+ background-image: url("./img/bg.png");
+}
+
+  
+    
+    
+    /*sitwide/global*/
+*
+{box-sizing: border-box; 
+ 
+}
+
+.row {margin: 20px 0;
+  display: flex;
+
+}
+
+.col{padding: 20px;
+margin:10px;
+  flex: 1 0 center;
+  
+  
+}
+
+/*flexbox*/
+
+.row {background: #333;
+  
+
+  
+}
+
+.col {background: #ccc;
+  
+}
+    
+
+
+
+
+

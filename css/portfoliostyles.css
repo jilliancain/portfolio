@@ -1,0 +1,196 @@
+
+body {
+    background-image: url("./img/bg.png");}
+
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-size: 8px;
+  font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+  background: grey;
+}
+
+
+h1 {
+  margin: 5px;
+    margin:auto;
+  padding: 10px;
+    width:auto;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+  font-family:'Amatic SC', cursive;
+  color: #222;
+  background: grey;
+    border: 2px solid black;
+}
+
+h2 {
+  margin:5px;
+    margin:auto;
+  padding: 10px;
+    font-size: 30px;
+    height:50px;
+    width:auto;
+    text-align: center;
+
+  font-family:'Amatic SC', cursive;
+  color: #222;
+}
+
+.title {
+  margin: 25px;
+    margin:auto;
+  padding: 10px;
+    font-size: 20px;
+    text-align: center;
+height:20px;
+    width:auto;
+  font-family:'Amatic SC', cursive;
+  color: #222;}
+    
+.headline {
+  margin: 25px;
+    margin:auto;
+  padding: 10px;
+    font-size: 20px;
+    text-align: center;
+height:20px;
+    width:auto;
+  font-family:'Amatic SC', cursive;
+  color: #222;
+    background:white;}
+h3 {
+  margin:5px;
+    margin:auto;
+  padding: 10px;
+    font-size: 30px;
+    height:50px;
+    width:200px;
+    text-align: center;
+    background: #206E6E;
+    border: 1px solid black;
+   font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+}
+
+.navbar {
+    font-size: 20px;
+height:20px;
+    width:300px;
+  font-family:'Amatic SC', cursive;
+  color: #222;
+
+   display:auto;
+
+}
+
+
+
+
+
+
+figure {
+  background: grey;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+    font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+     
+    
+}
+
+figcaption {
+  background: grey;
+  bottom: 0;
+  padding: 10px;
+  position: absolute;
+  width: 280px;
+      font-family:'Open Sans Condensed', sans-serif;
+  color: #222;
+        transform: rotate(5deg) 
+}
+
+/* First Frame  */
+figure figcaption {
+  opacity: 1;
+  bottom: -116px;
+  transition: all 1s;
+}
+
+/* Last Frame */
+figure:hover figcaption {
+  bottom: 0;
+  opacity: 1;
+}
+
+
+
+/*hover styles*/
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: darkcyan;
+}
+
+
+
+/*desktop*/
+ @media screen and (max-width:1024px) {
+  
+
+
+body {
+  background-image: url("./img/bg.png");
+  
+}
+     .tablet, mobile
+  {display: none;}
+   
+   .tablet 
+   {display: block;}
+   
+
+}
+
+
+
+
+
+
+/*tablet*/
+
+@media screen and (max-width:1024px) {
+  
+
+
+body {
+ background-image: url("./img/bg.png");
+  
+}
+  .desktop, mobile
+  {display: none;}
+  
+
+}
+
+
+
+
+/*mobile*/
+
+@media screen and (max-width:480px ) {
+  
+
+body {
+ background-image: url("./img/bg.png");
+}
+    
+    

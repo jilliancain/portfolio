@@ -1,0 +1,101 @@
+
+html, body {
+	background-color: #fff;
+	height: 100%;
+}
+
+#banner {
+	background-image: url("../img/bg.png");
+	height: 80%;
+}
+
+#banner h1, .banner-pages h1 {
+	font-family:'Amatic SC', cursive;
+	height: 50px;
+    font-size: 45px;
+}
+
+.banner-pages h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner-pages {
+	background-image: url("../img/bg.png");
+	height: 200px;
+}
+
+.banner-pages #banner-title {
+    background-color: #00cc99;
+    padding: 0px;
+    border: solid 2px #000;
+    margin: 15px auto 0px auto;
+    color: #fff;
+}
+
+.banner-pages #sub-title {
+    margin: 15px auto 0px auto;
+    padding: 0px;
+    font-size: 30px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid #000;
+    background: none;
+    font-family: 'Amatic SC', cursive;
+    color: #000;
+}
+
+#banner-title {
+    background-color: #00cc99;
+    padding: 5px;
+    border: solid 2px #000;
+    margin: 200px auto 0px auto;
+    color: #fff;
+}
+
+#sub-title {
+    margin: 20px auto 0px auto;
+    padding: 10px;
+    font-size: 30px;
+    width: 280px;
+    text-align: center;
+    border: 2px solid #000;
+    background: none;
+    font-family: 'Amatic SC', cursive;
+    color: #000;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.btn-primary {
+    background-image: -o-linear-gradient(top,#00cc99 0,#00cc99 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#00cc99),to(#00cc99));
+    border-radius: 0px;
+}
+
+.btn-primary:hover {
+    background-image: -o-linear-gradient(top,#00cc99 0,#00cc99 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#00cc99),to(#00cc99));
+    background-color: #00cc99;
+}
+
+#contact-form {
+	padding: 25px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 0px;
+}
